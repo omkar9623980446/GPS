@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>FreshGrocer</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <section class="hero">
+            <img src="images/grocery-banner.jpg" alt="Fresh Groceries">
+            <div class="hero-text">
+                <h2>Fresh and Organic Products Delivered to Your Door</h2>
+                <p>Explore our wide selection of fresh groceries and enjoy fast home delivery.</p>
+                <a href="products.html" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+        <section class="categories">
+            <h2>Popular Categories</h2>
+            <div class="category-list">
+                <div class="category-item">
+                    <img src="images/fruits.jpg" alt="Fruits">
+                    <h3>Fruits</h3>
+                </div>
+                <div class="category-item">
+                    <img src="images/vegetables.jpg" alt="Vegetables">
+                    <h3>Vegetables</h3>
+                </div>
+                <div class="category-item">
+                    <img src="images/dairy.jpg" alt="Dairy">
+                    <h3>Dairy</h3>
+                </div>
+                <div class="category-item">
+                    <img src="images/snacks.jpg" alt="Snacks">
+                    <h3>Snacks</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="images/apple.jpg" alt="Apple">
+                    <h4>Red Apple</h4>
+                    <p>$2.99 / lb</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/carrot.jpg" alt="Carrot">
+                    <h4>Carrots</h4>
+                    <p>$1.99 / lb</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/milk.jpg" alt="Milk">
+                    <h4>Organic Milk</h4>
+                    <p>$3.50 / carton</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/chips.jpg" alt="Chips">
+                    <h4>Potato Chips</h4>
+                    <p>$1.50 / pack</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 FreshGrocer. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
